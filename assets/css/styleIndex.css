@@ -1,0 +1,65 @@
+/* Atur styling dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Mengatur elemen secara vertikal */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling untuk heading */
+h1 {
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px; /* Jarak antara heading dan form */
+}
+
+/* Styling untuk form */
+form {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+/* Styling untuk input */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Placeholder styling */
+form input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+/* Styling untuk tombol */
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background: #0056b3;
+}
